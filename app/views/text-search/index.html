@@ -1,0 +1,13 @@
+<div style="padding: 20px;">
+  <h1>Text Search</h1>
+<div>
+    <form>
+      <input type="text" id="search" name="search" ng-change="txt.textChange()" ng-model="txt.search" style="width:250px; padding: 5px 2px; font-size: 18px;">
+      <br/>
+      <span class="result">{{txt.occurances}}</span> occurances
+    </form>
+</div>
+<p class="article" style="width: 50%;">
+  {{txt.searchText}}
+</p>
+</div>
