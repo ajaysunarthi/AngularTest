@@ -15,7 +15,6 @@ Run the app and open in a browser to see the instructions and follow along.
 * FizzBuzz
 * Display a list of videos.
 * Click on a video to view more details about the video.
-* Search for specific video.
 
 ## CSS
 
