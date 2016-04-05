@@ -1,5 +1,19 @@
 <h1>My Videos</h1>
+<link rel="stylesheet" href="app/views/videos/style.css">
 
-<div ng-repeat="video in vid.videos">
-    <div>{{video.name}}</div>
+<section class="products gallery">
+
+<div ng-repeat="video in vid.videos.data">
+    
+    <a href="{{video.link}}">
+    	<figure>
+    	<img ng-src="{{video.pictures[1].link}}"/>
+        <figcaption>{{video.description}}</figcaption>
+    	</figure>
+    </a>
+        
+      
 </div>
+	
+
+</section>
