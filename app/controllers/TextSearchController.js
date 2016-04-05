@@ -6,7 +6,7 @@ angular.module('TestDemoApp').controller('TextSearchController', function() {
     vm.textChange = function() {
         //   $scope.search;
         //   $scope.searchText;
-        var regX = new RegExp(vm.search, 'g');
+        var regX = new RegExp(vm.search, 'gi');
         vm.occurrences = (vm.searchText.match(regX) || []).length;
 
     };
